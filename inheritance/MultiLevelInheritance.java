@@ -18,7 +18,7 @@ class GermanShepherd extends Dog{
   }
 }
 
-public class MultiLevelInheritane {
+public class MultiLevelInheritance  extends GermanShepherd{ // now gone error //
   public static void main(String[] args) {
     GermanShepherd obj3 = new GermanShepherd();
     obj3.head();
